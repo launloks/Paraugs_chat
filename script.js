@@ -1,1 +1,1 @@
-alert(1);
+alert("Lapa nav sasniedzama");
