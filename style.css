@@ -1,8 +1,16 @@
 body{
-    background-image:;
+   background-image: url(beautiful-shot-sunset-mountains-by-lake-with-amazing-clouds.jpg);
 }
 .base{
     background-color:lavenderblush;
     width: 500px;
     height: 500px;
+    border: 2px solid rgb(rgb(46, 109, 79));
+    padding: 10px;
+    margin: auto;
+}
+.chatmessage{
+    background-color: green;
+    
+
 }
