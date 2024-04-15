@@ -1,5 +1,5 @@
 body{
-   background-image: url(beautiful-shot-sunset-mountains-by-lake-with-amazing-clouds.jpg);
+   background-image: url(4K.jpg)
 }
 .base{
     background-color:lavenderblush;
@@ -10,7 +10,9 @@ body{
     margin: auto;
 }
 .chatmessage{
-    background-color: green;
-    
-
+    background-image: url(Chat\ message.jpg);
+    height: 430px;
+    padding: 10px;
+    overflow: scroll;
+    color:rgb(15, 15, 15);
 }
