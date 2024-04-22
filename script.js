@@ -8,9 +8,10 @@ function sentmessage() {
 
     
 }
-function loadChatmessage()
+async function loadChatmessage()
 
 {
     let DatafromServer = await fetch('chatmessage.txt');
-    let Data = await DatafromServer;
+    let Data = await DatafromServer.text;
+
 }
