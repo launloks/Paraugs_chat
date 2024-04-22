@@ -13,5 +13,5 @@ async function loadChatmessage()
 {
     let DatafromServer = await fetch('chatmessage.txt');
     let Data = await DatafromServer.text;
-
+    console.log(dati);
 }
