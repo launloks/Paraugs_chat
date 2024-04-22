@@ -11,5 +11,6 @@ function sentmessage() {
 function loadChatmessage()
 
 {
-
+    let DatafromServer = await fetch('chatmessage.txt');
+    let Data = await DatafromServer;
 }
