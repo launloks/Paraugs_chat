@@ -8,3 +8,8 @@ function sentmessage() {
 
     
 }
+function loadChatmessage()
+
+{
+
+}
