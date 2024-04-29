@@ -1,6 +1,7 @@
 //console.log(1)
     let message = document.querySelector('.message');
     let messages = document.querySelector('.chatmessage');
+    let name= document.querySelector('.name');
     
 function sentmessage() {
     console.log ('sentmessage()works');
