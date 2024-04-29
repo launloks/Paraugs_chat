@@ -4,14 +4,14 @@
     
 function sentmessage() {
     console.log ('sentmessage()works');
-    messages.innerHTML = messages.innerHTML+'<br>'+message.value;
+    messages.innerHTML = messages.innerHTML+'<br>'+ message.value;
 
     
 }
 async function loadChatmessage()
 
 {
-    let DatafromServer = await fetch('chatmessage.txt');
+    let DatafromServer = await fetch('Chatmessage.txt');
     let Data = await DatafromServer.text;
-    console.log(dati);
+    console.log(Data);
 }
